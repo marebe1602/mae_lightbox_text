@@ -30,6 +30,5 @@ replaced the templates for j_colorbox (html5 and xhtml)
 
 
 
-visit:
-http://www.martin-eberhardt.com
-for more information
+More info at:
+http://www.martin-eberhardt.com/mae_lightbox_text.html
