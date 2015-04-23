@@ -1,0 +1,37 @@
+{
+	"name": "marebe1602/mae_lightbox_text",
+	"type": "contao-module",
+	"description": "automatically translates the text 'Image x of y' within j_colorbox (Lightbox) in 37 languages",
+	"license": "LGPL-3.0+",
+    "keywords": ["contao", "extension", "lightbox", "colorbox", "i18n", "translation", "Übersetzung", "Bild x von y", "image x of y"],
+    "homepage": "http://www.martin-eberhardt.com/mae_lightbox_text.html",
+    "authors":[
+      {
+        "name":"Martin Eberhardt",
+        "homepage":"http://www.martin-eberhardt.com",
+        "role":"Developer"
+      }
+    ],
+    "support":{
+      "issues":"https://github.com/marebe1602/mae_lightbox_text/issues",
+      "source":"https://github.com/marebe1602/mae_lightbox_text"
+    },
+    "require":{
+      "php":">=5.3",
+      "contao/core":">=3.4.0,<4",
+      "contao-community-alliance/composer-installer":"*"
+    },
+    "autoload":{
+      "classmap":["src/"]
+    },
+    "replace":{
+      "contao-legacy/mae_lightbox_text":"self.version"
+    },
+    "extra":{
+      "contao":{
+        "sources":{
+          "":"system/modules/mae_lightbox_text"
+        }
+      }
+    }
+}

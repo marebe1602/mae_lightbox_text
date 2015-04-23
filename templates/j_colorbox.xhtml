@@ -1,0 +1,26 @@
+<?php
+/**
+ * ME: added the "current" parameter to translate the "Image x of y" string automatically
+ */
+
+// Add the colorbox style sheet
+$GLOBALS['TL_CSS'][] = 'assets/jquery/colorbox/'. $GLOBALS['TL_ASSETS']['COLORBOX'] .'/css/colorbox.min.css|static';
+
+?>
+<!-- this is mine HTML5 -->
+<script type="text/javascript" src="<?php echo TL_ASSETS_URL; ?>assets/jquery/colorbox/<?php echo $GLOBALS['TL_ASSETS']['COLORBOX']; ?>/js/colorbox.min.js"></script>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  (function($) {
+    $(document).ready(function() {
+      $('a[rel^=lightbox]').colorbox({
+        // Put custom options here
+        current: '<?php echo $GLOBALS['TL_LANG']['mae_j_colorbox']['current']; // e.g. Image {current} of {total} ?>',
+        loop: false,
+        maxWidth: '95%',
+        maxHeight: '95%'
+      });
+    });
+  })(jQuery);
+  /* ]]> */
+</script>
