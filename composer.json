@@ -3,7 +3,7 @@
 	"type": "contao-module",
 	"description": "automatically translates the text 'Image x of y' within j_colorbox (Lightbox) in 37 languages",
 	"license": "LGPL-3.0+",
-    "keywords": ["contao", "extension", "lightbox", "colorbox", "i18n", "translation", "Übersetzung", "Bild x von y", "image x of y"],
+    "keywords": ["contao", "extension", "lightbox", "colorbox", "i18n", "translation", "image x of y"],
     "homepage": "http://www.martin-eberhardt.com/mae_lightbox_text.html",
     "authors":[
       {
