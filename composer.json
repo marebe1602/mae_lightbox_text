@@ -21,9 +21,6 @@
       "contao/core":">=3.4.0,<4",
       "contao-community-alliance/composer-installer":"*"
     },
-    "autoload":{
-      "classmap":["src/"]
-    },
     "replace":{
       "contao-legacy/mae_lightbox_text":"self.version"
     },
